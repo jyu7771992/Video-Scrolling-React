@@ -1,0 +1,15 @@
+.image-container {
+  height: 5000px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* make it height as much as possible; */
+}
+.image-gap {
+  height: 2000px;
+}
+.image-canvas {
+  border: 1px solid white;
+}
