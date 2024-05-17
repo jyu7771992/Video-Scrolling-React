@@ -15,7 +15,6 @@ const App = () => {
     const totalImages = 86;
     for (let i = 1; i <= totalImages; i++) {
       const img = new Image();
-      console.log(i);
       img.src = `images/${i}.webp`;
       loadedImages.push(img);
     }
